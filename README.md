@@ -1,2 +1,8 @@
-# react_practice-redux_toolkit
-React Practice - Redux Toolkit
+# React Practice - Redux Toolkit  
+
+## Tech Stack:  
+* React  
+* Redux Toolkit  
+* TypeScript  
+* Vite  
+
