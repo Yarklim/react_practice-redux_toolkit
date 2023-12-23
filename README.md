@@ -5,4 +5,5 @@
 * Redux Toolkit  
 * TypeScript  
 * Vite  
-
+* Vitest  
+* Material UI
