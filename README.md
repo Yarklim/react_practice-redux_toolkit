@@ -7,3 +7,4 @@
 * Vite  
 * Vitest  
 * Material UI
+* husky  
