@@ -24,7 +24,7 @@ export const playgroundSlice = createSlice({
       })
     },
 
-    setEnteredValue: (state) => {},
+    setEnteredValue: (state, action) => {},
   },
 })
 
