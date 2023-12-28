@@ -1,6 +1,6 @@
-import { useAppSelector } from "../../app/hooks"
-import { MAP_ARROW_CODES } from "../Playground/constants"
-import { IMapArrowCodes } from "../Playground/types"
+import { useAppSelector } from "../../../../app/hooks"
+import { MAP_ARROW_CODES } from "../../constants"
+import { IMapArrowCodes } from "../../types"
 
 export interface IRandomKeysProps {
   isTimerActive: boolean
