@@ -1,5 +1,6 @@
 import { useAppDispatch } from "../../../../app/hooks"
 import { resetStore } from "../../store/slices"
+import ResultMessage from "./components/ResultMessage"
 
 export interface IModalProps {
   setIsShowModal: React.Dispatch<React.SetStateAction<boolean>>
@@ -19,6 +20,7 @@ const Modal: React.FC<IModalProps> = (props) => {
   return (
     <div>
       <h3>Modal</h3>
+      <ResultMessage isWin={isWin} />
       <button onClick={handleClose}>Start New Game</button>
     </div>
   )
