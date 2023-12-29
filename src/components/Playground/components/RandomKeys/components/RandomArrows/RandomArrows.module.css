@@ -1,0 +1,32 @@
+.icon {
+  display: inline-block;
+
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 10px 10px;
+
+  border-radius: 6px;
+  background-color: #b4bcc4;
+}
+
+.iconSuccess {
+  display: inline-block;
+
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 10px 10px;
+
+  border-radius: 6px;
+  background-color: #4fd79a;
+}
+
+.iconUnsuccess {
+  display: inline-block;
+
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 10px 10px;
+
+  border-radius: 6px;
+  background-color: #d87171;
+}
