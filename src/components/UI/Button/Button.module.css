@@ -1,3 +1,21 @@
 .button {
-  background-color: #2b828d;
+  min-width: 100px;
+
+  padding: 5px 16px;
+
+  border: none;
+  border-radius: 18px;
+
+  background: none;
+  background-color: var(--color-lasure-lighter);
+
+  color: #fff;
+
+  transition: background-color 0.7s;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--color-lasure-dark);
 }

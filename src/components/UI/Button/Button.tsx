@@ -1,3 +1,4 @@
+import cn from "classnames"
 import { Button as MUIButton, ButtonProps } from "@mui/material"
 
 import styles from "./Button.module.css"
@@ -13,8 +14,8 @@ const Button: React.FC<IButtonProps> = (props) => {
     <MUIButton
       variant="contained"
       size="small"
-      className={styles.button}
       {...props}
+      className={cn(styles.button, className)}
     >
       {children}
     </MUIButton>
