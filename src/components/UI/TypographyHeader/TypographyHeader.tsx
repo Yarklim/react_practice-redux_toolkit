@@ -14,7 +14,11 @@ const TypographyHeader: React.FC<ITypographyHeaderProps> = (props) => {
   const { children, className = "" } = props
 
   return (
-    <MaterialTypography {...props} className={cn(styles.text, className)}>
+    <MaterialTypography
+      variant="h3"
+      {...props}
+      className={cn(styles.text, className)}
+    >
       {children}
     </MaterialTypography>
   )
