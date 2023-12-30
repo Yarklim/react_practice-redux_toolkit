@@ -1,17 +1,17 @@
-import { TypographyHeader } from "../../../UI"
+import { TypographyHeader, TypographyText } from "../../../UI"
 
 const Description: React.FC = () => {
   return (
     <div>
       <TypographyHeader>↑↓→← Arrow-game description</TypographyHeader>
-      <span>
+      <TypographyText>
         Player's goal is to press the keyboard arrow key that was shown to him
         before the next one appears.
-      </span>
-      <span>
+      </TypographyText>
+      <TypographyText>
         After three consecutive successful hits - game won, after three errors -
         lost.
-      </span>
+      </TypographyText>
     </div>
   )
 }

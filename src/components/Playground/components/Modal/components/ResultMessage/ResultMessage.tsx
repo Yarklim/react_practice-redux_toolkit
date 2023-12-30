@@ -1,3 +1,5 @@
+import { TypographyText } from "../../../../../UI"
+
 export interface IResultMessageProps {
   isWin: boolean
 }
@@ -6,13 +8,13 @@ const ResultMessage: React.FC<IResultMessageProps> = (props) => {
   const { isWin } = props
 
   return isWin ? (
-    <span>
+    <TypographyText>
       Congratulation! <br /> You Win!
-    </span>
+    </TypographyText>
   ) : (
-    <span>
+    <TypographyText>
       My regrets. <br /> You have lost this game!
-    </span>
+    </TypographyText>
   )
 }
 
