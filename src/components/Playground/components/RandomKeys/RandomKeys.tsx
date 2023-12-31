@@ -3,8 +3,6 @@ import { TypographyHeader } from "../../../UI"
 import RandomArrows from "./components/RandomArrows"
 import WelcomeText from "./components/RandomArrows/WelcomeText"
 
-import styles from "./RandomKeys.module.css"
-
 export interface IRandomKeysProps {
   isTimerActive: boolean
 }
