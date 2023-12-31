@@ -1,7 +1,11 @@
+import cn from "classnames"
+import { Modal as MaterialModal } from "@mui/material"
 import { useAppDispatch } from "../../../../app/hooks"
 import { Button } from "../../../UI"
 import { resetStore } from "../../store/slices"
 import ResultMessage from "./components/ResultMessage"
+
+import styles from "./Modal.module.css"
 
 export interface IModalProps {
   setIsShowModal: React.Dispatch<React.SetStateAction<boolean>>
@@ -19,11 +23,17 @@ const Modal: React.FC<IModalProps> = (props) => {
   }
 
   return (
-    <div>
-      <h3>Modal</h3>
-      <ResultMessage isWin={isWin} />
-      <Button onClick={handleClose}>Start New Game</Button>
-    </div>
+    <MaterialModal open onClose={handleClose} className={styles.wrapper}>
+      <div
+        className={cn(
+          styles.container,
+          isWin ? styles.modalSuccess : styles.modalUnsuccess,
+        )}
+      >
+        <ResultMessage isWin={isWin} />
+        <Button onClick={handleClose}>Start New Game</Button>
+      </div>
+    </MaterialModal>
   )
 }
 

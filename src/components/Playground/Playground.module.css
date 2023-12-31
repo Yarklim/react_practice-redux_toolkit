@@ -1,0 +1,27 @@
+.container {
+  max-width: 900px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--spacing-medium);
+
+  margin: auto;
+}
+
+.column {
+  flex-basis: calc((100% - 16px) / 2);
+
+  padding: var(--spacing-large);
+
+  border: 1px solid var(--color-yellow-darker);
+  border-radius: var(--border-radius-large);
+  background-color: var(--color-gray);
+}
+
+@media screen and (max-width: 559px) {
+  .column {
+    flex-basis: 100%;
+
+    margin-top: 20px;
+  }
+}

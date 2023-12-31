@@ -1,0 +1,19 @@
+.container {
+  margin-top: 20px;
+}
+
+.chipSuccessful,
+.chipUnsuccess {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.chipSuccessful {
+  border-color: var(--color-green-dark);
+  color: var(--color-green-dark);
+}
+
+.chipUnsuccess {
+  border-color: var(--color-red-dark);
+  color: var(--color-red-dark);
+}
