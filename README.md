@@ -6,5 +6,4 @@
 * TypeScript  
 * Vite  
 * Vitest  
-* Material UI
-* husky  
+* Material UI 
