@@ -1,7 +1,7 @@
 import { useAppSelector } from "../../../../app/hooks"
 import { TypographyHeader } from "../../../UI"
-import RandomArrows from "./components/RandomArrows"
-import WelcomeText from "./components/RandomArrows/WelcomeText"
+import RandomArrows from "../RandomArrows"
+import WelcomeText from "../WelcomeText"
 
 export interface IRandomKeysProps {
   isTimerActive: boolean

@@ -3,7 +3,7 @@ import { Modal as MaterialModal } from "@mui/material"
 import { useAppDispatch } from "../../../../app/hooks"
 import { Button } from "../../../UI"
 import { resetStore } from "../../store/slices"
-import ResultMessage from "./components/ResultMessage"
+import ResultMessage from "./ResultMessage"
 
 import styles from "./Modal.module.css"
 

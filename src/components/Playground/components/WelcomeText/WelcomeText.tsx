@@ -1,7 +1,7 @@
-import { TypographyText } from "../../../../../../UI"
+import { TypographyText } from "../../../UI"
 import loader from "./img/loader.svg"
 
-import stylesCommon from "../../../RandomKeys.module.css"
+import stylesCommon from "../RandomKeys/RandomKeys.module.css"
 import styles from "./WelcomeText.module.css"
 
 export interface IWelcomeTextProps {

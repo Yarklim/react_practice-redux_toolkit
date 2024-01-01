@@ -1,4 +1,4 @@
-import { TypographyText } from "../../../../../UI"
+import { TypographyText } from "../../../../UI"
 
 import styles from "./ResultMessage.module.css"
 

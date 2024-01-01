@@ -1,10 +1,10 @@
 import cn from "classnames"
-import { useAppSelector } from "../../../../../../app/hooks"
-import { MAP_ARROW_CODES } from "../../../../constants"
-import { IPlaygroundStepsStep } from "../../../../store/types"
-import { IMapArrowCodes } from "../../../../types"
+import { useAppSelector } from "../../../../app/hooks"
+import { MAP_ARROW_CODES } from "../../constants"
+import { IPlaygroundStepsStep } from "../../store/types"
+import { IMapArrowCodes } from "../../types"
 
-import stylesCommon from "../../RandomKeys.module.css"
+import stylesCommon from "../RandomKeys/RandomKeys.module.css"
 import styles from "./RandomArrows.module.css"
 
 const RandomArrows: React.FC = () => {
